@@ -1,0 +1,41 @@
+<?php return array(
+    'root' => array(
+        'name' => 'pantheon-upstreams/upstream-configuration',
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
+        'reference' => null,
+        'type' => 'project',
+        'install_path' => __DIR__ . '/../../',
+        'aliases' => array(),
+        'dev' => true,
+    ),
+    'versions' => array(
+        'composer/installers' => array(
+            'pretty_version' => 'v2.3.0',
+            'version' => '2.3.0.0',
+            'reference' => '12fb2dfe5e16183de69e784a7b84046c43d97e8e',
+            'type' => 'composer-plugin',
+            'install_path' => __DIR__ . '/./installers',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'pantheon-upstreams/upstream-configuration' => array(
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
+            'reference' => null,
+            'type' => 'project',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'wpackagist-plugin/polylang' => array(
+            'pretty_version' => '3.6.4',
+            'version' => '3.6.4.0',
+            'reference' => 'tags/3.6.4',
+            'type' => 'wordpress-plugin',
+            'install_path' => __DIR__ . '/../../wp-content/plugins/polylang',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+    ),
+);
