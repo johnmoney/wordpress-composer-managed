@@ -21,4 +21,5 @@ require_once dirname(__DIR__) . '/config/application.php';
 require_once ABSPATH . 'wp-settings.php';
 
 define('PLL_COOKIE', 'STYXKEY_pll_language');
+define('PLL_CACHE_HOME_URL', false);
 
